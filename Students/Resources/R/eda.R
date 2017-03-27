@@ -1,6 +1,6 @@
 ## ----read-data-----------------------------------------------------------
-hvac <- read.csv("HVAC.csv", header = T, stringsAsFactors = F)
-building <- read.csv("building.csv", header = T, stringsAsFactors = F)
+hvac <- read.csv("c:/temp/HVAC.csv", header = T, stringsAsFactors = F)
+building <- read.csv("c:/temp/building.csv", header = T, stringsAsFactors = F)
 head(hvac)
 head(building)
 dim(hvac)
